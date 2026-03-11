@@ -13,7 +13,7 @@ public class PropertiesUtil {
 
 	public static String readProperty(Env env, String properyName) {
 		System.out.println(System.getProperty("user.dir"));
-		File propertyFile = new File(System.getProperty("user.dir") + "\\config\\" + env + ".properties");
+		File propertyFile = new File(System.getProperty("user.dir") + "//config//" + env + ".properties");
 		FileReader fileReader = null;
 		Properties properties = new Properties();
 		try {
